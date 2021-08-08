@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky-Birthday!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Is your birthday lucky</h1>
+    </header>
+
+    <section>
+      <div class="title">
+        Enter your birthdate and lucky number to proceed further
+      </div>
+
+      <div class="privacyNote" id="showNote">
+        <strong> Privacy Notice :</strong> We are not storing your data.
+        <span id="close"> X </span>
+      </div>
+
+      <h3>Select your Birth Date</h3>
+      <input type="date" id="birthDate" />
+
+      <h3>Enter your lucky number</h3>
+      <input type="number" id="luckyNum" />
+      <button id="checkBtn">Check</button>
+
+      <div class="result"></div>
+    </section>
+
+    <footer class="footer">
+      <div>Connect with me on</div>
+      <ul>
+        <li class="list-item-inline">
+          <a href="/"><i class="devicon-twitter-original color"></i></a>
+        </li>
+        <li class="list-item-inline">
+          <a href="/"><i class="devicon-linkedin-plain color"></i></a>
+        </li>
+        <li class="list-item-inline">
+          <a href="/"><i class="devicon-github-original color"></i></a>
+        </li>
+      </ul>
+      <h5>
+        © 2021 | coderAdii |
+        <span id="redirect"> <a href="#showNote"> Privacy Policy</a></span>
+      </h5>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
