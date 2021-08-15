@@ -25,7 +25,7 @@ function checkClickHandler(event) {
           <img src = "luckygif.gif">
           `;
     } else {
-        result.innerHTML = `Oops!! Your birthday is not a lucky!
+        result.innerHTML = `Oops!! Your birthday is not lucky!
           <img id="size" src = "unlucky.gif">
           `;
     }
